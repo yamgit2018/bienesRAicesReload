@@ -1,0 +1,41 @@
+/* Globales */
+.contenedor
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Index */
+.site-header.inicio
+{
+   background-image: url("../img/header.jpg"); 
+   height: 100vh;
+   min-height: 600px;
+   background-position: center center;
+   background-size: cover;
+}
+
+.barra
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;    
+}
+
+.navegacion a
+{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navegacion a:last-of-type
+{
+    margin: 0;
+}
+
+.navegacion a:hover
+{
+    color: #71b100;
+}
