@@ -1,7 +1,13 @@
 html
 {
     font-size: 62.5%;      /* 1 rem equivale a 10px */
+     box-sizing: border-box;
 }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
 
 body
 {
@@ -14,11 +20,6 @@ body
 img
 {
     max-width: 100%;
-}
-.contenedor
-{
-    max-width: 100rem;
-    margin: 0 auto;
 }
 
 h1
@@ -42,6 +43,13 @@ h4
 }
 
 /* Utilidades */
+
+.contenedor
+{
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
 .seccion
 {
     margin-top: 4rem;
@@ -61,6 +69,33 @@ h4
 .no-margin
 {
     margin: 0;
+}
+
+.d-block 
+{
+    display: block !important;
+}
+
+.boton
+{
+    color: white;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.boton-verde
+{
+    background-color: green;
+    
+}
+
+.boton-naranja
+{
+    background-color: orange;
+    
 }
 
 
@@ -154,7 +189,21 @@ h4
     padding: 2rem;
 }
 
-.contenido-anuncio h3, .contenido-anuncio p
+.contenido-anuncio h3
 {
-    margin: 0;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.precio
+{
+    color: #71b100;
+    font-weight: 700;
+}
+
+.ver-todas
+{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 3rem;
 }
