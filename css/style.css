@@ -84,6 +84,7 @@ h4
     margin-top: 1rem;
     display: inline-block;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .boton-verde
@@ -206,4 +207,27 @@ h4
     display: flex;
     justify-content:flex-end;
     margin-top: 3rem;
+}
+
+/* Index Contacto */
+
+.imagen-contacto
+{
+    background-image: url(../img/encuentra.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-contacto
+{
+    flex: 1;
+    color: white
+}
+
+.contenido-contacto p
+{
+    font-size: 1.8rem;
 }
