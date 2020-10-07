@@ -250,3 +250,48 @@ h4
 {
     font-size: 1.8rem;
 }
+
+/* Index Blog y Testimoniales  */
+.seccion-inferior
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-inferior .blog
+{
+    flex-basis: 60%;
+}
+
+.seccion-inferior .testimoniales
+{
+    flex-basis: calc(40% - 2rem);
+}
+
+/* Blog */
+.entrada-blog
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.entrada-blog:last-of-type
+{
+    margin: 0;
+}
+
+.entrada-blog .imagen-blog
+{
+    flex-basis: 40%;
+}
+
+.entrada-blog .texto-blog
+{
+    flex-basis: calc(60% - 2rem);
+}
+
+.texto-blog h4
+{
+    line-height: 1.3;
+}
