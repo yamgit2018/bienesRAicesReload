@@ -336,16 +336,38 @@ h4
     width: 4rem;
     height: 4rem;
     position: absolute;
-    left: -2rem;
+    left: -3rem;
 }
 
 .testimonial blockquote
 {
     position: relative;
-    padding-left: 4rem;
+    padding-left: 3rem;
+    
 }
 
 .testimonial p
 {
     text-align: right;
+}
+
+/* Footer Index */
+
+.site-footer
+{
+    background-color: #333333;
+    margin-top: 4rem;
+}
+
+.contenido-footer
+{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright
+{
+    margin: 0;
+    color: white;
 }
