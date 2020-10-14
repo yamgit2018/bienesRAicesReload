@@ -101,6 +101,13 @@ h4
 
 
 /* Header Index */
+
+.site-header
+{
+    background-color: #333333;
+    padding:1rem 0 3rem 0;
+}
+
 .site-header.inicio
 {
    background-image: url("../img/header.jpg"); 
@@ -168,6 +175,11 @@ h4
 .icono h3
 {
     text-transform: uppercase;
+}
+
+.icono p
+{
+    font-weight: 300;
 }
 
 /* Index Anuncio */
@@ -370,4 +382,46 @@ h4
 {
     margin: 0;
     color: white;
+}
+
+/* Nosotros */
+/* 
+.contenido-nosotros
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen-nosotros
+{
+    flex-basis: 50%;
+}
+
+.texto-nosotros
+{
+    flex-basis: calc(50% - 2rem);
+} */
+
+
+.contenido-nosotros
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+.texto-nosotros
+{
+    padding: 3rem 0;
+}
+
+.texto-nosotros blockquote
+{
+    margin-bottom: 3rem;
+    font-weight: 900;
+}
+
+.texto-nosotros p
+{
+    font-weight: 300;
 }
