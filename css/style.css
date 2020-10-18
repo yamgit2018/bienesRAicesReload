@@ -50,6 +50,11 @@ h4
     margin: 0 auto;
 }
 
+.contenido-centrado
+{
+    max-width: 70rem;
+}
+
 .seccion
 {
     margin-top: 4rem;
@@ -225,18 +230,22 @@ h4
     display: flex;
     padding: 0;
     justify-content: space-evenly;
+    flex: 1;
+    max-width: 40rem;
 }
 
 .iconos-caracteristicas li
 {
     display: flex;
+    
 }
 
 .iconos-caracteristicas li img
 {
-    /* margin-right: 2rem; */
-    padding-right: 2rem;
+    margin-right: 2rem;
+    /* padding-right: 2rem; */
 }
+
 
 .ver-todas
 {
@@ -429,4 +438,13 @@ h4
 .texto-nosotros p
 {
     font-weight: 300;
+}
+
+/* Page Anuncio */
+
+.contenedor-precio-iconos
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
