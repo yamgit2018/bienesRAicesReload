@@ -86,10 +86,16 @@ h4
     color: white;
     text-decoration: none;
     padding: 1rem 3rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     display: inline-block;
     text-align: center;
     text-transform: uppercase;
+    border: none;
+}
+
+.boton:hover
+{
+    cursor: pointer;
 }
 
 .boton-verde
@@ -477,9 +483,31 @@ textarea
     height: 20rem;
 }
 
+select
+{
+    -webkit-appearance: none;
+    /* appearance: none; */
+}
+
+ .contacto p
+ {
+     font-size: 1.6rem;
+     color: #454545;
+     margin: 1rem 0 ;
+ }
 
 
 
+.forma-contacto
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.forma-contacto label
+{
+    margin-right: 2rem;
+}
 
 

@@ -29,13 +29,13 @@
         <img src="img/destacada3.jpg" alt="Page Contacto">
         <main class="contenedor seccion contenido-centrado">
             <h3 class="fw-300 centrar-texto">LLena el Formulario de Contacto</h3>
-            <form action="">
+            <form action="" class="contacto">
                 <fieldset>
                     <legend>Información Personal</legend>
                         <label for="name">Nombre:</label>
-                        <input type="text" name="" id="name" placeholder="Tu Nombre">
+                        <input type="text" name="" id="name" placeholder="Tu Nombre" required>
                         <label for="lastname">Apellido:</label>
-                        <input type="text" name="" id="lastname" placeholder="Tu Apellido">
+                        <input type="text" name="" id="lastname" placeholder="Tu Apellido" required>
                         <label for="email">E-mail:</label>
                         <input type="email" name="" id="email" placeholder="Tu Email">
                         <label for="phone">Telefono:</label>
@@ -59,23 +59,26 @@
                 <fieldset>
                     <legend>Contacto</legend>
                     <p class="no-margin">Como deseas ser contactado:</p>
-                    <label for="telefono">Telefono</label>
-                    <input type="radio" name="contacto" id="telefono">
+                    <div class="forma-contacto">
+                        <label for="telefono">Telefono</label>
+                        <input type="radio" name="contacto" id="telefono">
 
-                    <label for="correo">Correo</label>
-                    <input type="radio" name="contacto" id="correo">
-
+                        <label for="correo">Correo</label>
+                        <input type="radio" name="contacto" id="correo">
+                    </div>        
                     <p class="no-margin">Si eligio Telefono, elija la Fecha y Hora</p>
                     <label for="fecha">Fecha:</label>
                     <input type="date" name="" id="fecha">
 
                     <label for="hora">Hora:</label>
                     <input type="time" name="" id="hora" min="09:00" max="18:00">
+
+                    <input type="submit" value="Enviar" class="boton boton-verde">
                 </fieldset>            
                 
 
             </form>
-            <input type="submit" value="Enviar" class="boton boton-verde">
+            
             
         </main>
         
